@@ -130,4 +130,4 @@ lgb_model = lgb.LGBMClassifier(objective='binary', learning_rate=0.08, n_estimat
                             ...
 >>최적의 fbeta 성능: 0.9909867691394472
 ```
-<img src="https://user-images.githubusercontent.com/88478829/169640702-82431313-ce0d-467c-8438-a29a09e01e59.png" width="500" height="300" float="left"/>                         <img src="https://user-images.githubusercontent.com/88478829/169640738-1acf4866-a0f1-4675-ae86-68fa04972186.png" width="300" height="300" float="right"/>
+<img src="https://github.com/ehfapddl/dm/issues/2#issue-1244257450" width="500" height="300" float="left"/>                         <img src="https://github.com/ehfapddl/dm/issues/1#issue-1244257329" width="300" height="300" float="right"/>
