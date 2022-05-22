@@ -126,8 +126,8 @@ for lr in lgb_params['learning_rate']:
 ```python
 lgb_model = lgb.LGBMClassifier(objective='binary', learning_rate=0.08, n_estimators=100, subsample=0.75, 
                             colsample_bytree=0.8, tree_method='gpu_hist', random_state=CFG['SEED'],
-                            max_depth=6)
+                            max_depth=7)
                             ...
->>최적의 fbeta 성능: 0.9909867691394472
+>>최적의 fbeta 성능: 0.9970430604324525
 ```
 <img src="https://user-images.githubusercontent.com/105711315/169698154-00893f28-c8ec-4e8a-8575-d943ce895351.png" width="500" height="300" float="left"/>                         <img src="https://user-images.githubusercontent.com/105711315/169698129-6a0f9df7-3a4b-4357-893e-d658934efe0d.png" width="300" height="300" float="right"/>
