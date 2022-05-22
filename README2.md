@@ -95,10 +95,10 @@ lightgbm 모델은 다양한 모델처럼 좋은 성능을 보이지만 빠르�
 따라서, lightgbm을 최종 모델로 선정하여 하이퍼 파라미터를 조정하였습니다. 
 Name|#Params|GridsearchCV Fbeta|Validaton Fbeta
 ---|---|---|---|
-RandomForest|max_depth, min_samples_leaf, min_samples_split|0.9999|1.0|
-XGboost|learning_rate, gamma, max_depth|0.9999|1.0|
-LightGBM|learning_rate|0.9999|1.0|
-SVM|C, gamma, kernel|0.9999|1.0|
+RandomForest|max_depth, min_samples_leaf, min_samples_split|0.9990|0.9989|
+XGboost|learning_rate, gamma, max_depth|1.0|1.0|
+LightGBM|learning_rate|1.0|1.0|
+SVM|C, gamma, kernel|0.9914|1.0|
   
   
 
