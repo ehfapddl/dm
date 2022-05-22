@@ -122,9 +122,9 @@ for lr in lgb_params['learning_rate']:
 ```
    
 ### Model Test
-Fbeta는 Precision을 어느정도 반영한다는 점에서 한계가 존재합니다.
-오버피팅을 줄이는 방안으로 learning_rate 및 max_depth를 줄여서 overfitting을 줄이는 과정을 진행하였습니다.
-또한, threshold를 조정하여 Recall이 변하지 않고, FP은 증가하지만 FN을 줄일 수 있는 지점을 구하였습니다.  그 지점은 임계점이 0.22507250725072508입니다.
+Fbeta는 Precision을 어느정도 반영한다는 점에서 한계가 존재합니다.   
+오버피팅을 줄이는 방안으로 learning_rate 및 max_depth를 줄여서 overfitting을 줄이는 과정을 진행하였습니다.   
+또한, threshold를 조정하여 Recall이 변하지 않고, FP은 증가하지만 FN을 줄일 수 있는 지점을 구하였습니다.  그 지점은 임계점이 0.22507250725072508입니다.   
 최적의 모델을 후처리한 후, Fbeta, recall의 그래프, 혼동행렬 결과입니다.
 ```python
 lgb_model = lgb.LGBMClassifier(objective='binary', learning_rate=0.01, n_estimators=100, subsample=0.75, 
